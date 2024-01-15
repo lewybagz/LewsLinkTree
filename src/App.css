@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=PT+Sans&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 100dvw;
+  min-height: 100dvh;
+  font-family: "Montserrat", sans-serif;
+  background-color: #989898;
+  position: relative;
+  overflow-x: clip;
+  overflow-y: visible;
+}
+.App {
+  padding-bottom: 2em;
+  & img {
+    width: 192px;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  & .App-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #d3d2d2;
+  }
+}
+
+.link-tree {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2em;
+  @media screen and (max-width: 900px) {
+    gap: 1em;
+  }
+  & .big-stripe {
+    position: absolute;
+    background-color: black;
+    width: 120vw; /* Full viewport width */
+    height: 20vh; /* Full viewport height */
+    top: -10%;
+    left: 70%;
+    transform: translate(-50%, -50%) rotate(25deg);
+    transform-origin: 0 0;
+    z-index: -2;
+    @media screen and (max-width: 900px) {
+      top: 10%;
+      left: 70%;
+      width: 140vw;
+    }
+  }
+  & h1 {
+    font-family: "MonteCarlo", cursive;
+    font-size: 3.5em;
+    margin: 0;
+    color: #d3d2d2;
+    text-align: center;
+
+    @media screen and (max-width: 900px) {
+      font-size: 2.5em;
+    }
+  }
+  & ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    & li {
+      min-width: 300px;
+      text-align: center;
+    }
+
+    & i {
+      color: #000000;
+      margin-right: 10px;
+      transition: all 0.7s ease-in-out;
+    }
+  }
+  & .a-tag-lol:hover i,
+  & .a-tag-lol:focus i {
+    color: #1941f3;
+  }
+  & .a-tag-lol {
+    display: block;
+    width: 300px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    color: #000000;
+    border: 3px solid #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+    color: #d3d2d2;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #404040;
+      z-index: -1;
+      transition: all 0.5s ease-out;
+      transform: scaleX(0);
+      transform-origin: right;
+    }
+    &:hover::before,
+    &:focus::before {
+      transform: scaleX(1);
+    }
+    &:hover,
+    &:focus {
+      color: #fff;
+      border: 3px solid #1941f3;
+    }
+  }
+}
