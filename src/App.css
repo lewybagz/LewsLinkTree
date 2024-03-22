@@ -46,8 +46,8 @@ body {
   & .big-stripe {
     position: absolute;
     background-color: black;
-    width: 120vw; /* Full viewport width */
-    height: 20vh; /* Full viewport height */
+    width: 120vw;
+    height: 20vh;
     top: -10%;
     left: 70%;
     transform: translate(-50%, -50%) rotate(25deg);

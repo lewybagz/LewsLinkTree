@@ -6,6 +6,27 @@ function LinkTree() {
       <ul>
         <li>
           <a
+            href="https://adt.fundyourmission.com/join-american-dream-team?ref=lewis51"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="a-tag-lol"
+          >
+            <i className="fa-brands fa-pagelines"></i> Join The Dream Team
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.RiverbendRanchSteaks.com/lewispatterson"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="a-tag-lol"
+          >
+            <i className="fa-solid fa-hat-cowboy"></i> Riverbend Ranch All
+            Natural Grass Fed Beef
+          </a>
+        </li>
+        <li>
+          <a
             href="https://www.instagram.com/brianna_quintero20?igsh=MWh0em1oODVieXJ3cQ%3D%3D&utm_source=qr"
             target="_blank"
             rel="noopener noreferrer"
