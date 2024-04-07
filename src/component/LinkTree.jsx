@@ -16,6 +16,16 @@ function LinkTree() {
         </li>
         <li>
           <a
+            href="https://lewybagz.github.io/BizBoom/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="a-tag-lol"
+          >
+            <i className="fa-solid fa-rocket"></i> BizBoom By Bagz
+          </a>
+        </li>
+        <li>
+          <a
             href="https://www.RiverbendRanchSteaks.com/lewispatterson"
             target="_blank"
             rel="noopener noreferrer"
@@ -47,7 +57,7 @@ function LinkTree() {
         </li>
         <li>
           <a
-            href="https://t.snapchat.com/KDXGAnw4"
+            href="https://t.snapchat.com/zbTE8Wxk"
             target="_blank"
             rel="noopener noreferrer"
             className="a-tag-lol"
@@ -67,7 +77,7 @@ function LinkTree() {
         </li>
         <li>
           <a
-            href="mailto:briannaq0120@gmail.com"
+            href="mailto:lleep1997@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="a-tag-lol"
